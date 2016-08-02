@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="برنامه ضبط صدا"
+        android:id="@+id/textView"
+        android:background="#e7e7e7"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:text="ضبط"
+            android:id="@+id/btnrecord"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_weight="0.33"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:text="توقف"
+            android:id="@+id/btnstop"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_weight="0.33" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:text="پخش"
+            android:id="@+id/btnplay"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_weight="0.33" />
+    </LinearLayout>
+
+    <TextView
+        android:text="طراحی شده توسط آکادمی مجازی ذره بین"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
